@@ -1,3 +1,6 @@
+import { ThemeToggle } from "@/components/theme-toggle";
+import SonnerDemo from "@/components/toast-example";
+
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
@@ -6,6 +9,8 @@ export default function Home() {
           Get started by editing&nbsp;
           <code className="font-mono font-bold">app/page.tsx</code>
         </p>
+        <SonnerDemo />
+        <ThemeToggle />
       </div>
     </main>
   );
